@@ -10,7 +10,7 @@ class Solution {
                 hi=mid-1;
                 res=mid;
             }
-            else if(arr[mid]<target){
+            else{
                 lo=mid+1;
             }
         }
