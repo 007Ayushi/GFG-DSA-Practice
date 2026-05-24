@@ -1,15 +1,14 @@
 class Solution {
-    static void printTillN(int N) {
+    public void printTillN(int n) {
         // code here
-        int num=1;
-        print(num,N);
-       
+      int x=1;
+       print(x,n);
         
     }
-    static void print(int num,int N){
-         if(num>N)return ;
-        System.out.print(num+" ");
-        print(num+1,N);
+    public void print(int x, int n){
+        if(x==n+1)return;
+        System.out.print(x+" ");
+        print(x+1,n);
         
     }
 }
