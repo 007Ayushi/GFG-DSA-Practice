@@ -2,8 +2,9 @@ class Solution {
     void printNos(int n) {
         // code here
         
-        if(n==0)return ;
-        System.out.print(n+" ");
-        printNos(n-1);
+        for(int i=n;i>0;i--){
+            System.out.print(i+" ");
+        }
+        
     }
 }
