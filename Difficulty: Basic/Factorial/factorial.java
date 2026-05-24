@@ -3,10 +3,13 @@ class Solution {
     int factorial(int n) {
         // code here
         
-        int answer=1;
-        for(int i=1;i<=n;i++){
-            answer*=i;
+        int ans=1;
+        
+        //Method 1- Using Recursion
+        for(int i=n;i>=1;i--){
+            ans*=i;
         }
-        return answer;
+        return ans;
+        
     }
 }
