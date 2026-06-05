@@ -2,9 +2,9 @@ class Solution {
     void printNos(int n) {
         // code here
         
-        for(int i=n;i>0;i--){
-            System.out.print(i+" ");
-        }
-        
+        //base case
+        if(n==0)return ;
+        System.out.print(n+" ");
+        printNos(n-1);
     }
 }
